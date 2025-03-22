@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* Use the Roboto font loaded from Google Fonts */
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   color: #333;
   background-color: #f4f4f4;
   line-height: 1.6;
@@ -24,11 +25,19 @@ body {
   padding: 10px;
 }
 
+/* Debug Style: Add a light border to see container edges */
+.box {
+  border: 2px dashed #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
 /*==============================
   Header Styling
 ==============================*/
 header {
-  background-color: #3B82F6; /* Professional blue tone */
+  background-color: #3B82F6;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -40,37 +49,31 @@ header h1 {
 }
 
 /*==============================
-  Tabs Navigation Styling
+  Navigation Links
 ==============================*/
-nav .tabs {
+.nav-links {
   list-style: none;
   display: flex;
   justify-content: center;
   margin-top: 15px;
 }
 
-nav .tabs li {
+.nav-links li {
   margin: 0 10px;
 }
 
-nav .tabs .tab-btn {
-  background: #f4f4f4;
-  border: 2px solid #3B82F6;
-  color: #3B82F6;
-  padding: 10px 20px;
-  cursor: pointer;
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 16px;
   border-radius: 4px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s;
 }
 
-nav .tabs .tab-btn:hover {
-  background-color: #3B82F6;
-  color: #fff;
-}
-
-nav .tabs .tab-btn.active {
-  background-color: #3B82F6;
-  color: #fff;
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: #2563eb;
 }
 
 /*==============================
@@ -80,35 +83,43 @@ main {
   padding: 20px 0;
 }
 
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
-}
-
-section h2 {
+h2 {
   font-size: 2rem;
   margin-bottom: 15px;
   color: #1f2937;
 }
 
-section p,
-section li {
+p {
   font-size: 1.1rem;
   margin-bottom: 15px;
 }
 
 /*==============================
-  Section Styling for a Card-like Layout
+  Feature List Styling
 ==============================*/
-section {
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
   background-color: #fff;
-  padding: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  /* Debug border to clearly see the box */
+  border: 1px solid #ddd;
+}
+
+.feature-list a {
+  text-decoration: none;
+  color: #3B82F6;
+  font-size: 1.3rem;
+}
+
+.feature-list a:hover {
+  color: #2563eb;
 }
 
 /*==============================
