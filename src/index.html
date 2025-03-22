@@ -10,20 +10,27 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header with Navigation -->
+  <!-- Header with Logo, Title, and Navigation -->
   <header>
     <div class="container">
-      <h1>Studently</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">About</a></li>
-          <li><a href="features.html">Features</a></li>
-        </ul>
-      </nav>
+      <!-- Logo positioned absolutely -->
+      <div class="logo">
+        <img src="img/logo.png" alt="Studently Logo">
+      </div>
+      <!-- New wrapper for title and nav links in column layout -->
+      <div class="header-main">
+        <h1>Studently</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="features.html">Features</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   
-  <!-- Main About Content -->
+  <!-- Main Content -->
   <main>
     <div class="container box">
       <h2>About Studently</h2>
@@ -36,7 +43,7 @@
     </div>
   </main>
   
-  
+  <!-- Footer -->
   <footer>
     <div class="container">
       <p>&copy; <span id="year"></span> Studently. All Rights Reserved.</p>

@@ -5,19 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Learn about the Google Classroom Integration feature in Studently.">
   <title>Google Classroom Integration - Studently Features</title>
+  <!-- Google Fonts Link for Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <!-- Header with Navigation -->
+  <!-- Header with Logo, Title, and Navigation -->
   <header>
     <div class="container">
-      <h1>Studently</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">About</a></li>
-          <li><a href="features.html">Features</a></li>
-        </ul>
-      </nav>
+      <!-- Logo positioned absolutely at the extreme left -->
+      <div class="logo">
+        <img src="img/logo.png" alt="Studently Logo">
+      </div>
+      <!-- New wrapper to stack title and navigation vertically -->
+      <div class="header-main">
+        <h1>Studently</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="features.html">Features</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   
@@ -25,12 +34,20 @@
   <main>
     <div class="container">
       <h2>Google Classroom Integration</h2>
-      <p>
-        With the Google Classroom Integration feature, Studently automatically fetches and synchronizes your assignments, deadlines, and classroom materials. This integration minimizes manual entry and ensures you always have the most current information available.
-      </p>
-      <p>
-        By bridging the gap between your classroom tools and your academic planning, the integration helps optimize your workflow. It offers real-time updates, making sure you’re immediately notified of any changes in your Google Classroom environment.
-      </p>
+      <!-- New container to hold text and image side by side -->
+      <div class="feature-content">
+        <div class="feature-text">
+          <p>
+            With the Google Classroom Integration feature, Studently automatically fetches and synchronizes your assignments, deadlines, and classroom materials. This integration minimizes manual entry and ensures you always have the most current information available.
+          </p>
+          <p>
+            By bridging the gap between your classroom tools and your academic planning, the integration helps optimize your workflow. It offers real-time updates, making sure you’re immediately notified of any changes in your Google Classroom environment.
+          </p>
+        </div>
+        <div class="feature-img">
+          <img src="img/gc.png" alt="Google Classroom Integration">
+        </div>
+      </div>
       <a class="back-link" href="features.html">&larr; Back to Features</a>
     </div>
   </main>

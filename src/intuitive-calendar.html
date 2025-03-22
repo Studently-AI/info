@@ -5,19 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Learn about the Intuitive Calendar feature in Studently.">
   <title>Intuitive Calendar - Studently Features</title>
+  <!-- Google Fonts Link for Roboto (optional, for consistency) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   
+  <!-- Header with Logo, Title, and Navigation -->
   <header>
     <div class="container">
-      <h1>Studently</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">About</a></li>
-          <li><a href="features.html">Features</a></li>
-        </ul>
-      </nav>
+      <!-- Logo positioned absolutely at the extreme left -->
+      <div class="logo">
+        <img src="img/logo.png" alt="Studently Logo">
+      </div>
+      <!-- New wrapper to stack title and navigation vertically -->
+      <div class="header-main">
+        <h1>Studently</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="features.html">Features</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   
@@ -35,12 +44,13 @@
     </div>
   </main>
   
-  
+  <!-- Footer -->
   <footer>
     <div class="container">
       <p>&copy; <span id="year"></span> Studently. All Rights Reserved.</p>
     </div>
   </footer>
+  
   <script src="script.js"></script>
 </body>
 </html>
