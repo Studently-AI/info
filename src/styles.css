@@ -76,9 +76,36 @@ header h1 {
   background-color: #a40000;
 }
 
+
+/*==============================
+  Back-Link Styling
+==============================*/
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #a40000;
+  border: 1px solid #a40000;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #a40000;
+  color: #fff;
+}
+
+
+
 /*==============================
   Main Content Styling
 ==============================*/
+
+
+
+
 main {
   padding: 20px 0;
 }
