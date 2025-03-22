@@ -1,0 +1,123 @@
+/*==============================
+  Basic Reset & Global Styles
+==============================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/*==============================
+  Container for Consistent Width
+==============================*/
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/*==============================
+  Header Styling
+==============================*/
+header {
+  background-color: #3B82F6; /* Professional blue tone */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+/*==============================
+  Tabs Navigation Styling
+==============================*/
+nav .tabs {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+nav .tabs li {
+  margin: 0 10px;
+}
+
+nav .tabs .tab-btn {
+  background: #f4f4f4;
+  border: 2px solid #3B82F6;
+  color: #3B82F6;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav .tabs .tab-btn:hover {
+  background-color: #3B82F6;
+  color: #fff;
+}
+
+nav .tabs .tab-btn.active {
+  background-color: #3B82F6;
+  color: #fff;
+}
+
+/*==============================
+  Main Content Styling
+==============================*/
+main {
+  padding: 20px 0;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+section p,
+section li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/*==============================
+  Section Styling for a Card-like Layout
+==============================*/
+section {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/*==============================
+  Footer Styling
+==============================*/
+footer {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  color: #6b7280;
+}

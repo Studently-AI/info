@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studently Information</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Studently is an all-in-one platform designed to help students achieve academic success with ease and efficiency.">
+  <title>Studently Information</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-    <!--This is a site which will display the information of the Studently app-->
 <body>
-    Studently is an all-in-one platform designed to help students achieve academic success
-    with ease and efficiency. Our app seamlessly integrates with Google Classroom to automatically
-    fetch and sync assignment data, deadlines, and class materials, ensuring that students never
-    miss a task. Key features include an intuitive calendar to manage assignments, deadlines,
-    and exams, a GPA calculator to track academic performance, and a comprehensive to-do list
-    to keep tasks organized. Additionally, Studently includes a powerful study tool that generates
-    personalized study guides, flashcards, and practice tests based on the student's coursework.
-    With Studently, students can stay organized, focused, and on top of their academic goals, all
-    while benefiting from real-time updates pulled directly from Google Classroom.
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Studently</h1>
+      <nav>
+        <ul class="tabs">
+          <li>
+            <button class="tab-btn active" data-target="about">About</button>
+          </li>
+          <li>
+            <button class="tab-btn" data-target="features">Features</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Tab Content -->
+    <section id="about" class="tab-content active">
+      <div class="container">
+        <h2>About Studently</h2>
+        <p>
+          Studently is an all-in-one platform designed to help students achieve academic success with ease and efficiency. Our app seamlessly integrates with Google Classroom to automatically fetch and sync assignment data, deadlines, and class materials, ensuring that students never miss a task.
+        </p>
+        <p>
+          With Studently, students can stay organized, focused, and on top of their academic goals by accessing a suite of powerful tools tailored to their needs.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Tab Content -->
+    <section id="features" class="tab-content">
+      <div class="container">
+        <h2>Features</h2>
+        <ul>
+          <li>
+            <strong>Google Classroom Integration:</strong> Seamlessly fetch and sync assignments, deadlines, and materials.
+          </li>
+          <li>
+            <strong>Intuitive Calendar:</strong> Manage assignments, deadlines, and exam dates effortlessly.
+          </li>
+          <li>
+            <strong>GPA Calculator:</strong> Track academic performance and progress.
+          </li>
+          <li>
+            <strong>Personalized Study Tools:</strong> Get tailored study guides, flashcards, and practice tests based on your coursework.
+          </li>
+          <li>
+            <strong>Comprehensive To-Do List:</strong> Stay organized with real-time updates ensuring no task is missed.
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Studently. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
 </body>
 </html>
