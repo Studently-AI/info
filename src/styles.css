@@ -10,8 +10,8 @@
 body {
   /* Use the Roboto font loaded from Google Fonts */
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  color: #333;
-  background-color: #f4f4f4;
+  color: #ffffff;
+  background-color: #3f3e3e;
   line-height: 1.6;
 }
 
@@ -27,18 +27,18 @@ body {
 
 /* Debug Style: Add a light border to see container edges */
 .box {
-  border: 2px dashed #ddd;
+  border: 2px dashed #000000;
   padding: 15px;
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 /*==============================
   Header Styling
 ==============================*/
 header {
-  background-color: #3B82F6;
-  color: #fff;
+  background-color: #9d2323;
+  color: #000000;
   padding: 20px 0;
   text-align: center;
 }
@@ -63,7 +63,7 @@ header h1 {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-size: 1.1rem;
   padding: 8px 16px;
@@ -73,7 +73,7 @@ header h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #2563eb;
+  background-color: #a40000;
 }
 
 /*==============================
@@ -86,7 +86,7 @@ main {
 h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #1f2937;
+  color: #e78989;
 }
 
 p {
@@ -103,7 +103,7 @@ p {
 }
 
 .feature-list li {
-  background-color: #fff;
+  background-color: #8c8585;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
@@ -114,21 +114,21 @@ p {
 
 .feature-list a {
   text-decoration: none;
-  color: #3B82F6;
+  color: #a40000;
   font-size: 1.3rem;
 }
 
 .feature-list a:hover {
-  color: #2563eb;
+  color: #a40000;
 }
 
 /*==============================
   Footer Styling
 ==============================*/
 footer {
-  background-color: #e5e7eb;
+  background-color: #9d2323;
   text-align: center;
   padding: 15px 0;
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #000000;
 }
