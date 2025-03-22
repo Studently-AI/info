@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   /* Use the Roboto font loaded from Google Fonts */
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: "Winky Sans", sans-serif;
   color: #ffffff;
   background-color: #3f3e3e;
   line-height: 1.6;
@@ -198,6 +198,56 @@ p {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/*==============================
+  Navigation Links with Animation
+==============================*/
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  position: relative; /* For click effect (pseudo-element positioning) */
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: #a40000;
+  color: #fff;
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.nav-links a:active {
+  transform: scale(0.95); /* Shrink slightly on click */
+}
+
+/*==============================
+  Back-Link with Animation
+==============================*/
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #a40000;
+  border: 1px solid #a40000;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  position: relative; /* For pseudo-elements */
+}
+
+.back-link:hover {
+  background-color: #a40000;
+  color: #fff;
+  transform: translateY(-2px); /* Float up slightly */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.back-link:active {
+  transform: scale(0.95); /* Shrink slightly on click */
 }
 
 
